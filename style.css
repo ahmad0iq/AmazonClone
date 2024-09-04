@@ -255,12 +255,11 @@ a{
     position: relative;
 }
 .hero-gradient{
-    height: 50%;
+    height: 300px;
     width: 100%;
     background: linear-gradient(to top, #e3e6e6,transparent);
-    background-size: cover;
     position: absolute;
-    bottom: 0;
+    top: 300px;
 }
 .hero-arrow-left{
     height: 250px;
