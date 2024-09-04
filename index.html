@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="nav-logo">
+                <div id="logo" class="border"></div>
+            </a>
+
+            <a href="#">
+                <div class="nav-add border">
+                    <span class="del">Deliver to</span>
+                    <div class="loc">
+                        <i class="fa-solid fa-location-dot loc-icon"></i>
+                        <span class="location">Pakistan</span>
+                    </div>
+                </div>
+            </a>
+
+            <div class="nav-search">
+                <select name="Category" id="nav-cat-selector">
+                    <option value="all" selected="selected">All</option>
+                </select>
+                <input type="search" name="search" id="nav-search-bar" placeholder="Search Amazon">
+                <button id="nav-search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="lang border">
+                <div class="flag"></div>
+                <span class="english">EN</span>
+                <i id="lang-dropdown" class="fa-solid fa-caret-down dropdown"></i>
+            </div>
+
+            <div class="nav-signin border">
+                <div class="signin nav-first-line">Hello, sign in</div>
+                <div class="acc-dropdown">
+                    <div class="acc nav-sec-line">Account & Lists</div>
+                    <i id="signin-dropdown" class="fa-solid fa-caret-down dropdown"></i>
+                </div>
+            </div>
+
+            <div class="orders border">
+                <div class="nav-first-line">Returns</div>
+                <div class="nav-sec-line">& Orders</div>
+            </div>
+
+            <div class="cart border">
+                <div class="cart-items">0</div>
+                <div class="cart-container">
+                    <div class="cart-logo"></div>
+                    <div class="cart-text nav-sec-line">Cart</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-left">
+                <a href="#" class="hamburger-menu panel-border">
+                    <div class="hamburger-icon"></div>
+                    <div class="hamburger-text">All</div>
+                </a>
+            </div>
+
+            <div class="panel-fill">
+                <a href="#" class="panel-border">Today's Deals</a>
+                <a href="#" class="panel-border">Costumer Service</a>
+                <a href="#" class="panel-border">Registry</a>
+                <a href="#" class="panel-border">Gift Cards</a>
+                <a href="#" class="panel-border">Sell</a>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="arrows-container">
+            <a href="#" class="hero-arrow-left">
+                <i class="arrow-icon-left"></i>
+            </a>See more
+            <a href="#" class="hero-arrow-right">
+                <i class="arrow-icon-right"></i>
+            </a>
+        </div>
+        <div class="hero-gradient"></div>
+        <div class="cards-layout">
+            <div class="cards-row">
+                <div class="card" id="card1">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Gaming Accessories</h2>
+                        </div>
+                        <div class="cardui-img quad-img">
+                            <div class="img-line1">
+                                <div class="img-conatiner">
+                                    <img src="first block img 1.jpg">
+                                    <span class="img-text">Headsets</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="first block img 2.jpg"><span class="img-text">Keyboards</span>
+                                </div>
+                            </div>
+                            <div class="img-line2">
+                                <div class="img-conatiner">
+                                    <img src="first block img 3.jpg" alt=""><span class="img-text">Computer mice</span>
+                                </div>
+                            <div class="img-conatiner">
+                                <img src="first block img 4.jpg" alt=""><span class="img-text">Chairs</span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="cardui-footer"><a href="#">See more</a></div>
+                    </div>
+                </div>
+
+                <div class="card" id="card2">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Refresh your space</h2>
+                        </div>
+                        <div class="cardui-img quad-img">
+                            <div class="img-line1"><div class="img-conatiner">
+                                    <img src="second block img 1.jpg" alt=""><span class="img-text">Dinng</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="second block img 2.jpg" alt=""><span class="img-text">Home</span>
+                                </div>
+                            </div>
+                            <div class="img-line2"><div class="img-conatiner">
+                                    <img src="second block img 3.jpg" alt=""><span class="img-text">Kitchen</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="second block img 4.jpg" alt=""><span class="img-text">Health and beauty</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardui-footer"><a href="#">See more</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card" id="card3">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Shop deals in Fashion</h2>
+                        </div>
+                        <div class="cardui-img quad-img">
+                            <div class="img-line1"><div class="img-conatiner">
+                                    <img src="third block img 1.jpg" alt=""><span class="img-text">Jeans under $50</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="third block img 2.jpg" alt=""><span class="img-text">Tops under $25</span>
+                                </div>
+                            </div>
+                            <div class="img-line2"><div class="img-conatiner">
+                                    <img src="third block img 3.jpg" alt=""><span class="img-text">Dresses under $30</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="third block img 4.jpg" alt=""><span class="img-text">Shoes under $50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardui-footer"><a href="#">See all deals</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card" id="card4">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>New home arrivals under $50</h2>
+                        </div>
+                        <div class="cardui-img quad-img">
+                            <div class="img-line1"><div class="img-conatiner">
+                                    <img src="forth block img 1.jpg" alt=""><span class="img-text">Kitchen and dining</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="forth block img 2.jpg" alt=""><span class="img-text">Home improvement</span>
+                                </div>
+                            </div>
+                            <div class="img-line2"><div class="img-conatiner">
+                                    <img src="forth block img 3.jpg" alt=""><span class="img-text">Décor</span>
+                                </div>
+                                <div class="img-conatiner">
+                                    <img src="forth block img 4.jpg" alt=""><span class="img-text">Bedding and bath</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cardui-footer"><a href="#">Shop the latest from Home</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card card-2" id="card5">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Deals in PCs</h2>
+                        </div>
+                        <div class="cardui-img img-5">
+                            <!-- <img src="/5.jpg" alt=""> -->
+                        </div>
+                        <div class="cardui-footer"><a href="#">Shop now</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card card-2" id="card6">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Beauty steals under $25</h2>
+                        </div>
+                        <div class="cardui-img img-6"></div>
+                        <div class="cardui-footer"><a href="#">Shop now</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card card-2" id="card7">
+                    <div class="cardui">
+                        <div class="cardui-header">
+                            <h2>Get your game on</h2>
+                        </div>
+                        <div class="cardui-img img-7"></div>
+                        <div class="cardui-footer"><a href="#">Shop gaming</a></div>
+
+                    </div>
+                </div>
+
+                <div class="card card-2" id="card8">
+                    <div class="cardui">
+                        <div class="cardui-header"><h2>Toys under $25</h2></div>
+                        <div class="cardui-img img-8"></div>
+                        <div class="cardui-footer"><a href="#">Shop now</a></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="backtotop">
+            Back to top
+        </div>
+        <div class="footer2">
+            <div class="vertical-footer">
+                <div class="footercolumn">
+                    <p>Get to Know Us</p>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Amazon Devices</a>
+                    <a href="#">Amazon Science</a>
+                </div>
+                <div class="footercolumn">
+                    <p>Make Money with Us</p>
+                    <a href="#">Sell products on Amazon</a>
+                    <a href="#">Sell on Amazon Business</a>
+                    <a href="#">Sell apps on Amazon</a>
+                    <a href="#">Become an Affiliate</a>
+                    <a href="#">Advertise Your Products</a>
+                    <a href="#">Self-Publish with Us</a>
+                    <a href="#">Host an Amazon Hub</a>
+                    <a href="#">›See More Make Money with Us</a>
+                </div>
+                <div class="footercolumn">
+                    <p>Amazon Payment Products</p>
+                    <a href="#">Amazon Business Card</a>
+                    <a href="#">Shop with Points</a>
+                    <a href="#">Reload Your Balance</a>
+                    <a href="#">Amazon Currency Converter</a>
+                </div>
+                <div class="footercolumn">
+                    <p>	Let Us Help You</p>
+                    <a href="#">Amazon and COVID-19</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Shipping Rates & Policies</a>
+                    <a href="#">Returns & Replacements</a>
+                    <a href="#">Manage Your Content and Devices</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
