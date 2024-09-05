@@ -367,6 +367,7 @@ h2{
     width: 47.5%;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 img{
     position: absolute;
