@@ -22,7 +22,7 @@ body{
     margin-top: 2px;
 }
 #logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(images/amazon_logo.png);
     background-size: 120px;
     height: 50px;
     width: 120px;
@@ -123,7 +123,7 @@ a{
     scale: 0.9;
     height: 18px;
     width: 24px;
-    background-image: url(flags.png);
+    background-image: url(images/flags.png);
     background-position: 0 -130px;
 }
 .english{
@@ -181,7 +181,7 @@ a{
     align-items: center;
 }
 .cart-logo{
-    background-image: url(logos\ and\ icons.png);
+    background-image: url(images/logos\ and\ icons.png);
     background-size: 350px;
     background-position: -10px -340px;
     width: 38px;
@@ -227,7 +227,7 @@ a{
 .hamburger-icon{
     width: 17px;
     height: 14px;
-    background-image: url(logos\ and\ icons.png);
+    background-image: url(images/logos\ and\ icons.png);
     background-position: -172px -255px;
     background-size: 350px;
 }
@@ -248,7 +248,7 @@ a{
 .hero{
     width: 99vw;
     max-width: 1500px;
-    background-image: url(hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: auto 600px;
     background-repeat: no-repeat;
     margin: auto;
@@ -276,7 +276,7 @@ a{
     background-size: 68px 52px;
     width: 34px;
     height: 52px;
-    background-image: url(arrows.png);
+    background-image: url(images/arrows.png);
     background-position: 0 0;
     position: absolute;
     top: 50%;
@@ -287,7 +287,7 @@ a{
 .arrow-icon-right{
     background-size: 68px 52px;
     width: 34px;
-    background-image: url(arrows.png);
+    background-image: url(images/arrows.png);
     background-position: -34px 0;
     position: absolute;
     height: 52px;
@@ -397,16 +397,16 @@ img{
     width: 100%;
 }
 .img-5{
-    background-image: url(5.jpg);
+    background-image: url(images/5.jpg);
 }
 .img-6{
-    background-image: url(6.jpg);
+    background-image: url(images/6.jpg);
 }
 .img-7{
-    background-image: url(7.jpg);
+    background-image: url(images/7.jpg);
 }
 .img-8{
-    background-image: url(8.jpg);
+    background-image: url(images/8.jpg);
 }
 .cardui-footer{
     padding: 0 20px;
